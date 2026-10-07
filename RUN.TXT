@@ -1,0 +1,10 @@
+cd "C:\Users\prite\OneDrive\Desktop\Blockchain Project\blockchain"
+npx hardhat node
+
+cd "C:\Users\prite\OneDrive\Desktop\Blockchain Project\frontend"
+npm run dev
+
+cd "C:\Users\prite\OneDrive\Desktop\Blockchain Project\blockchain"
+npx hardhat console --network localhost
+http://localhost:5174
+
